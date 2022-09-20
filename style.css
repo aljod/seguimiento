@@ -1,0 +1,429 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tresponsive {
+  font-size: 3vw;
+}
+.stresponsive {
+  font-size: 2vw;
+}
+.colorgreen {
+  color: #8cc63e;
+}
+.colororange {
+  color: #f47321;
+}
+.todo {
+  margin: auto;
+  width: 95%;
+  height: 100%;
+  gap: 2vw;
+}
+.header {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 1%;
+}
+hr {
+  background-color: #f47321;
+  margin: auto;
+  width: 90%;
+  height: 1.5vw;
+}
+.container {
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  display: grid;
+  gap: 20px;
+  margin-top: 2%;
+  grid-template-columns: 1fr 15px 10vw;
+}
+
+.container div {
+  width: 100%;
+}
+.section1 {
+  margin: auto;
+  width: 100%;
+}
+.linea {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.span1 {
+  width: 100%;
+  height: 30%;
+  background-color: #209da5;
+}
+.span2 {
+  width: 100%;
+  height: 30%;
+  background-color: #8cc63e;
+}
+.span3 {
+  width: 100%;
+  height: 40%;
+  background-color: #f6a22c;
+}
+.div2 .section1 {
+  width: 100%;
+  height: 100%;
+}
+.section1 h1 {
+  font-size: 2vw;
+}
+.section1 h1 span {
+  color: #209da5;
+}
+.infos1 {
+  margin-top: 1%;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  gap: 2vw;
+}
+.infos1 p {
+  font-size: 1vw;
+}
+.barra_lateral {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.barra_lateral div {
+  height: 4vw;
+  background-color: #f47321;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.barra_lateral div:hover {
+  background: #ffb384;
+}
+.barra_lateral div a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+}
+.barra_lateral div a:hover {
+  color: rgb(65, 65, 65);
+}
+
+/* session 2 */
+.sesion2 {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sesion2 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.textos2 p {
+  font-size: 1.2vw;
+}
+.textos2 h1 {
+  font-size: 2vw;
+  color: #209da5;
+  text-transform: uppercase;
+}
+.textos2 h2 {
+  font-size: 1.5vw;
+}
+
+/* sesion 3 */
+
+.sesion3 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sesion3 div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sesion3 img {
+  width: 50%;
+}
+.sesion3 h1 {
+  color: #8cc63e;
+  font-size: 2vw;
+}
+.sesion3 p {
+  font-size: 1.2vw;
+}
+/* S4 */
+.s4 {
+  width: 100%;
+  text-align: center;
+}
+.s4 h2 {
+  color: #8cc63e;
+  font-size: 1.3vw;
+}
+.s4 h1 {
+  color: #8cc63e;
+  text-decoration: underline;
+  font-size: 3vw;
+}
+/* sesion 4 */
+
+.sesion4 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sesion4 .d1s4,
+.sesion4 .d3s4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sesion4 .d1s4 div,
+.sesion4 .d3s4 div {
+  display: flex;
+  gap: 5px;
+}
+.sesion4 h1 {
+  font-size: 3vw;
+}
+.sesion4 p {
+  font-size: 1vw;
+}
+.sesion4 span {
+  font-weight: bold;
+  font-size: 1.3vw;
+}
+.d2s4 {
+  display: flex;
+  justify-content: center;
+}
+/* sesion 5 */
+.ts5 {
+  font-size: 3vw;
+  color: #209da5;
+}
+.sesion5 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.sesion5 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: start;
+}
+.sesion5 div h2 {
+  font-size: 1.8vw;
+  color: #8cc63e;
+}
+.sesion5 div h4 {
+  font-size: 1.3vw;
+}
+.sesion5 div p {
+  font-size: 1vw;
+}
+.sesion5 div img {
+  width: 50%;
+}
+/* sesion 6 */
+
+.sesion6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  margin: auto;
+}
+p {
+  font-size: 1.2vw;
+}
+.sesion6 h1 {
+  font-size: 1.6vw;
+}
+.pgreen {
+  background-color: #8cc63e;
+  width: 60%;
+  padding: 5px;
+}
+.porange {
+  background-color: #f47321;
+  width: 50%;
+  padding: 5px;
+}
+.grids6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.ts6 {
+  font-size: 2.5vw;
+  margin-bottom: 3vw;
+}
+/* sesion 7 */
+
+.sesion7 {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 4vw;
+  gap: 2vw;
+}
+.sesion7 div {
+  display: flex;
+  justify-content: center;
+}
+.t7 {
+  margin-top: 4vw;
+  font-size: 3vw;
+}
+/* sesion 8 */
+.sesion8 {
+  width: 80%;
+  margin: auto;
+}
+.ts8 {
+  margin: 3vw 0;
+}
+/* sesion 9 */
+.sesion9 {
+  width: 80%;
+  margin: auto;
+}
+.ts9 {
+  margin: 3vw 0;
+}
+.g1s9 {
+  width: 100%;
+  margin: 1vw 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.g2s9 {
+  display: grid;
+
+  gap: 3vw;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+}
+.g2s9 div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.g3s9 {
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  margin-top: 1vw;
+}
+.g4s9 {
+  width: 100%;
+  display: flex;
+  margin: auto;
+  gap: 1rem;
+  gap: 3vw;
+  margin: 3vw 0;
+}
+/* sesion 10 */
+.sesion10 {
+  margin: auto;
+  width: 80%;
+  padding: 3vw 0 0 0;
+}
+.sesion10 .ps10 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vw;
+}
+/* sesion 11 */
+.sesion11 {
+  display: grid;
+  width: 80%;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem,1fr));
+}
+.card {
+  width: 100%;
+  border: solid 1px black;
+  padding:5px;
+}
+.card .card-img {
+}
+.card .card-img img {
+    border-radius: 50%;
+    border: solid 1px black;
+    width: 45%;
+    height: 45%;
+}
+.card span{
+    font-size: 0.8vw;
+    color: #f47321;
+}
+.card h4{
+    font-size: 0.4vw;
+}
+.card p{
+    font-size: 0.3vw;
+}
+.card-content{
+    gap: 2vw;
+}
+@media screen and (max-width: 2268px) {
+    .card span{
+        font-size: 1vw;
+    }
+    .card h4{
+        font-size: 0.9vw;
+    }
+    .card p{
+        font-size: 0.8vw;
+    }
+}
+@media screen and (max-width: 1695px) {
+    .card span{
+        font-size: 1.5vw;
+    }
+    .card h4{
+        font-size: 1vw;
+    }
+    .card p{
+        font-size: 0.95vw;
+    }
+}
+
+
+
+@media screen and (max-width: 1332px) {
+    .card span{
+        font-size: 2vw;
+    }
+    .card h4{
+        font-size: 1.5vw;
+    }
+    .card p{
+        font-size: 1.2vw;
+    }
+}
